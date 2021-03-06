@@ -29,9 +29,17 @@ RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以�
 
 ## 个人添加的RSS网站路由
 
-| 栏目1 | 栏目2 |
+| 河南省教育厅--公告告示 | http://jyt.henan.gov.cn/xxgk/gggs/ |
 | ----- | ----- |
-| 内容1 | 内容2 |
+| 国家科技管理信息系统--通知公告 | https://service.most.gov.cn/kjjh_tztg_all/ |
+| ----- | ----- |
+| 河南科技网--通知公告 | http://kjt.henan.gov.cn/tzgg/ |
+| ----- | ----- |
+| 河南科技网--政策文件 | http://kjt.henan.gov.cn/zcwj/ |
+| ----- | ----- |
+| 河南省教育厅--文件通知 | http://jyt.henan.gov.cn/xxgk/wjtz/ |
+| ----- | ----- |
+| 郑州市科技局--通知公告 | http://zzkj.zhengzhou.gov.cn/tzgg/index.jhtml |
 
 ```
 router.get('/loog_zyc/kjt', require('./routes/loog/zyc/kjt')); 
