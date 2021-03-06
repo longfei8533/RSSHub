@@ -27,79 +27,22 @@ RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以�
 
 [中文文档](https://docs.rsshub.app) | [Telegram 群](https://t.me/rsshub) | [Telegram 频道](https://t.me/awesomeRSSHub)
 
-## Special Thanks
+## 个人添加的RSS网站路由
 
-### Special Sponsors
+| 栏目1 | 栏目2 |
+| ----- | ----- |
+| 内容1 | 内容2 |
 
-<div>
-<a href="https://sa.net/" target="_blank"><img height="60px" src="https://i.imgur.com/3rM8nWI.png"></a>
-</div>
+```
+router.get('/loog_zyc/kjt', require('./routes/loog/zyc/kjt')); 
+router.get('/loog_zyc/gggs', require('./routes/loog/zyc/gggs'));
+router.get('/loog_zyc/wjtz', require('./routes/loog/zyc/wjtz'));
+router.get('/loog_zyc/kjt_zcwj', require('./routes/loog/zyc/kjt_zcwj'));
+router.get('/loog_zyc/zzskjj', require('./routes/loog/zyc/zzskjj'));
+router.get('/loog_zyc/kjjh_tztg', require('./routes/loog/zyc/kjjh_tztg'));
+```
 
-### Sponsors
 
-[Sayori Studio](https://t.me/SayoriStudio) . [Sion Kazama](https://blog.sion.moe) . [琚致远](https://www.shaoyaoju.org/) . [Rolly RSS 阅读器](https://www.coolapk.com/apk/239500) . [mokeyjay](https://www.mokeyjay.com/) . [萌开源联盟](https://www.moeunion.com) . [hooke007](https://github.com/hooke007/MPV_lazy) . [feeds.pub](https://feeds.pub)
 
-[![](https://opencollective.com/static/images/become_sponsor.svg)](https://docs.rsshub.app/en/support/)
 
-### Contributors
 
-[![](https://opencollective.com/RSSHub/contributors.svg?width=890)](https://github.com/DIYgod/RSSHub/graphs/contributors)
-
-Logo designer [sheldonrrr](https://dribbble.com/sheldonrrr)
-
-### Backers
-
-<a href="https://www.cloudflare.com" target="_blank"><img height="50px" src="https://i.imgur.com/7Ph27Fq.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.netlify.com" target="_blank"><img height="40px" src="https://i.imgur.com/cU01915.png"></a>
-
-## Related Projects
-
--   [RSSHub Radar](https://github.com/DIYgod/RSSHub-Radar) | 一个可以帮助你快速发现和订阅当前网站 RSS 和 RSSHub 的浏览器扩展
--   [RSSBud](https://github.com/Cay-Zhang/RSSBud) ([TestFlight 公测](https://testflight.apple.com/join/rjCVzzHP)) | iOS 平台的 RSSHub Radar，专为移动生态优化
--   [RSSAid](https://github.com/LeetaoGoooo/RSSAid)  | 基于 Flutter 构建的 Android 平台的 RSSHub Radar
-
-## Join Us
-
-We welcome all pull requests. Suggestions and feedback are also welcomed [here](https://github.com/DIYgod/RSSHub/issues).
-
-Refer to [Join Us](https://docs.rsshub.app/en/joinus/)
-
-见 [参与我们](https://docs.rsshub.app/joinus/)
-
-## Deployment
-
-Refer to [Deployment](https://docs.rsshub.app/en/install/)
-
-见 [部署](https://docs.rsshub.app/install/)
-
-## Support RSSHub
-
-Refer to [Support RSSHub](https://docs.rsshub.app/en/support/)
-
-见 [支持 RSSHub](https://docs.rsshub.app/support/)
-
-RSSHub is open source and completely free under the MIT license. However, just like any other open source project, as the project grows, the hosting, development and maintenance requires funding support.
-
-You can support RSSHub via donations.
-
-### Recurring Donation
-
-Recurring donors will be rewarded via express issue response, or even have your name displayed on our GitHub page and website.
-
--   Become a Sponser on [Patreon](https://www.patreon.com/DIYgod)
--   Become a Sponser on [爱发电](https://afdian.net/@diygod)
--   Contact us directly: i@diygod.me
-
-### One-time Donation
-
-We accept donations via the following ways:
-
--   [WeChat Pay](https://diygod.me/images/wx.jpg)
--   [Alipay](https://diygod.me/images/zfb.jpg)
--   [Paypal](https://www.paypal.me/DIYgod)
-
-## Author
-
-**RSSHub** © [DIYgod](https://github.com/DIYgod), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by DIYgod with help from contributors ([list](https://github.com/DIYgod/RSSHub/contributors)).
-
-> Blog [@DIYgod](https://diygod.me) · GitHub [@DIYgod](https://github.com/DIYgod) · Twitter [@DIYgod](https://twitter.com/DIYgod) · Telegram Channel [@awesomeDIYgod](https://t.me/awesomeDIYgod)
